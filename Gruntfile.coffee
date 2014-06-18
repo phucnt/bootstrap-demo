@@ -30,6 +30,23 @@ module.exports = (grunt) ->
         files:
           # target out put
           'index.html':[fileCss]
+    'less':
+      development:
+        options:
+          paths:['css']
+          dumpLineNumbers:'comments'
+        files:
+          'css/main.css': 'css/style.less'
+          
+    'watch':
+      less:
+        files:['css/style.less']
+        tasks:['less']
+        options:
+          reload:true
   grunt.loadNpmTasks 'grunt-sails-linker'
-  grunt.registerTask 'test', ['sails-linker,sass']
+  grunt.loadNpmTasks 'grunt-contrib-less'
+  grunt.loadNpmTasks 'grunt-contrib-watch'
+  grunt.registerTask 'default', ['sails-linker','watch:less']
+
   return
