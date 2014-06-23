@@ -40,7 +40,7 @@ module.exports = (grunt) ->
           
     'watch':
       less:
-        files:['css/style.less']
+        files:['css/**/*.less']
         tasks:['less']
         options:
           reload:true

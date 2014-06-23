@@ -1694,7 +1694,7 @@ pre code {
 @media (min-width: 1200px) {
   /* line 19, /home/phuc/Demo/bootstrap-demo/css/less/grid.less */
   .container {
-    width: 1160px;
+    width: 960px;
   }
 }
 /* line 30, /home/phuc/Demo/bootstrap-demo/css/less/grid.less */
@@ -7032,4 +7032,53 @@ button.close {
   .hidden-print {
     display: none !important;
   }
+}
+/* line 6, /home/phuc/Demo/bootstrap-demo/css/style.less */
+.heading {
+  width: 100%;
+  background-image: url('img/bg-heading.png');
+}
+/* line 9, /home/phuc/Demo/bootstrap-demo/css/style.less */
+.heading .icon-flag-america {
+  background-image: url('img/flag-america.png');
+  display: inline-block;
+  width: 20px;
+  height: 11px;
+}
+/* line 15, /home/phuc/Demo/bootstrap-demo/css/style.less */
+.heading .icon-flag-canada {
+  background-image: url('img/flag-canada.jpg');
+  display: inline-block;
+  width: 20px;
+  height: 11px;
+}
+/* line 21, /home/phuc/Demo/bootstrap-demo/css/style.less */
+.heading .icon-phone {
+  background-image: url('img/phone.png');
+  display: inline-block;
+  width: 19px;
+  height: 22px;
+}
+/* line 28, /home/phuc/Demo/bootstrap-demo/css/style.less */
+.heading .icon-question {
+  background-image: url('img/question.png');
+  display: inline-block;
+  width: 30px;
+  height: 22px;
+}
+/* line 34, /home/phuc/Demo/bootstrap-demo/css/style.less */
+.heading .phone {
+  display: inline-block;
+}
+/* line 37, /home/phuc/Demo/bootstrap-demo/css/style.less */
+.heading .question {
+  display: inline-block;
+}
+/* line 40, /home/phuc/Demo/bootstrap-demo/css/style.less */
+.heading .nav-heading {
+  display: inline-block;
+}
+/* line 42, /home/phuc/Demo/bootstrap-demo/css/style.less */
+.heading .nav-heading li {
+  display: inline-block;
 }
